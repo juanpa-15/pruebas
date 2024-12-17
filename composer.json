@@ -1,10 +1,8 @@
 {
-    "name": "juanpa/prueba",
-    "description": "Este es un proyecto de prueba con PHPUnit.",
-    "type": "project",
+    "name": "juanpa/pruebas",
     "autoload": {
         "psr-4": {
-            "App\\Model\\": "src/"
+            "Juanpa\\Pruebas\\": "src/"
         }
     },
     "authors": [
@@ -14,7 +12,6 @@
         }
     ],
     "require-dev": {
-        "phpunit/phpunit": "^10.2"
-    },
-    "license": "proprietary"
+        "phpunit/phpunit": "^11.5"
+    }
 }
