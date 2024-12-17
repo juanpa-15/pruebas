@@ -1,6 +1,6 @@
 <?php
 
-use Juanpa\Prueba\mainModel;
+use Juanpa\Pruebas\mainModel;
 
 
 

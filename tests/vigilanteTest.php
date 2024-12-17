@@ -26,7 +26,7 @@ class vigilanteTest extends TestCase
         $postData = [
             'REQUEST_METHOD' => 'POST',
             'tipo_documento' => 'CC',
-            'num_identificacion' => '11121495552222',
+            'num_identificacion' => '1112149555992',
             'nombres' => 'juan pablo',
             'apellidos' => 'osorio',
             'telefono' => '3023646789',
@@ -129,7 +129,7 @@ class vigilanteTest extends TestCase
         $postData = [
             'REQUEST_METHOD' => 'POST',
             'tipo_doc_funcionario' => 'CC',
-            'num_documento_funcionario' => '1112149000',
+            'num_documento_funcionario' => '11121490003',
             'nombres_funcionarios' => 'juan pablo',
             'apellidos_funcionarios' => 'osorio',
             'telefono_funcionario' => '3023646789',

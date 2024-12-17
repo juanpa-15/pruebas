@@ -1,7 +1,7 @@
 <?php
 	
 	
-	namespace Juanpa\Prueba;
+	namespace Juanpa\Pruebas;
 	use \mysqli;
 
 	if(file_exists(__DIR__."/../../config/server.php")){

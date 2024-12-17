@@ -3,7 +3,7 @@
         'name' => 'juanpa/pruebas',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '63235e6835a44d76b2c6f878f8d109a7e6237783',
+        'reference' => '6976a5089f6853065f0f2f1585bb39c900ae2da3',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'juanpa/pruebas' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '63235e6835a44d76b2c6f878f8d109a7e6237783',
+            'reference' => '6976a5089f6853065f0f2f1585bb39c900ae2da3',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
