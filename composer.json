@@ -1,0 +1,17 @@
+{
+    "name": "juanpa/prueba",
+    "autoload": {
+        "psr-4": {
+            "app\\model\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "juanpa",
+            "email": "osoriogalvis2585@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    }
+}
