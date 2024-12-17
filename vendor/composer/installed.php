@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'juanpa/pruebas',
-        'pretty_version' => '1.0.0',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '63235e6835a44d76b2c6f878f8d109a7e6237783',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'juanpa/pruebas' => array(
-            'pretty_version' => '1.0.0',
-            'version' => '1.0.0.0',
-            'reference' => null,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '63235e6835a44d76b2c6f878f8d109a7e6237783',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

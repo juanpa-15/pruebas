@@ -1,7 +1,6 @@
 {
     "name": "juanpa/pruebas",
     "description": "Descripción breve de tu paquete (generalmente una línea)",
-    "version": "1.0.0",
     "license": "MIT",
     "authors": [
         {
