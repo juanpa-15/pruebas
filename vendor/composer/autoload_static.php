@@ -16,13 +16,13 @@ class ComposerStaticInit16a6491f90a505752e356f1de4055819
         array (
             'PhpParser\\' => 10,
         ),
-        'J' => 
-        array (
-            'Juanpa\\Prueba\\' => 14,
-        ),
         'D' => 
         array (
             'DeepCopy\\' => 9,
+        ),
+        'A' => 
+        array (
+            'App\\Model\\' => 10,
         ),
     );
 
@@ -31,13 +31,13 @@ class ComposerStaticInit16a6491f90a505752e356f1de4055819
         array (
             0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
         ),
-        'Juanpa\\Prueba\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
-        ),
         'DeepCopy\\' => 
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
+        ),
+        'App\\Model\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
         ),
     );
 

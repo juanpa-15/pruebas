@@ -1,20 +1,20 @@
 <?php return array(
     'root' => array(
         'name' => 'juanpa/prueba',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
-        'type' => 'library',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '82f4b69558068f22757a81130d8f39b98086789b',
+        'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
         'juanpa/prueba' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
-            'type' => 'library',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '82f4b69558068f22757a81130d8f39b98086789b',
+            'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
             'dev_requirement' => false,
