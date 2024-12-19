@@ -13,8 +13,7 @@ class vigilanteController extends mainModel {
                 "titulo" => "Peticion incorrecta",
                 "mensaje" => "Lo sentimos, la accion que intentas realizar no es correcta",
                 "icono" => "error",
-                "tipoMensaje" => "redireccionar",
-                "url" => "http://localhost/Adso04/PROYECTOS/cerberus/panel-principal/"
+                "tipoMensaje" => "redireccionar"
             ]);
         }
  
@@ -23,10 +22,8 @@ class vigilanteController extends mainModel {
             empty($data['apellidos']) || empty($data['telefono']) || empty($data['correo']) || 
             empty($data['rol_usuario'])) {
             return json_encode([
-                "titulo" => "Error",
-                "mensaje" => "Lo sentimos, ha ocurrido un error con alguno de los datos, intentalo de nuevo mas tarde.",
-                "icono" => "error",
-                "tipoMensaje" => "normal"
+                "titulo" => "No estas mandando los datos completos"
+                
             ]);
         }
  
@@ -258,10 +255,7 @@ class vigilanteController extends mainModel {
  
         if ($this->verificarDatos('[0-9a-zA-Z]{6,16}', $credencial)) {
             return json_encode([
-                "titulo" => "Error",
-                "mensaje" => "Credenciales ingresadas no válidas",
-                "icono" => "error",
-                "tipoMensaje" => "normal"
+                "titulo" => "Credenciales ingresadas no validas"
             ]);
         }
  
@@ -314,8 +308,8 @@ class funcionarioController extends mainModel {
                 "titulo" => "Peticion incorrecta",
                 "mensaje" => "Lo sentimos, la accion que intentas realizar no es correcta",
                 "icono" => "error",
-                "tipoMensaje" => "redireccionar",
-                "url" => "http://localhost/Adso04/PROYECTOS/cerberus/"
+                "tipoMensaje" => "redireccionar"
+               
             ];
             return json_encode($mensaje);
         } else {
@@ -391,10 +385,8 @@ class funcionarioController extends mainModel {
             // Si hay errores, devolver mensaje con los campos que fallaron
             if (!empty($error)) {
                 $mensaje = [
-                    "titulo" => "Error de datos",
-                    "mensaje" => "Lo sentimos, los campos " . implode(", ", $error) . " NO cumplen con los requisitos",
-                    "icono" => "error",
-                    "tipoMensaje" => "normal"
+                    "titulo" => "Lo sentimos, los campos no cumplen con los requisitos"
+                
                 ];
                 return json_encode($mensaje);
             }
@@ -435,10 +427,8 @@ class funcionarioController extends mainModel {
                         if ($dato['tabla'] != 'visitantes') {
                             if ($dato['estado'] == 'ACTIVO') {
                                 $mensaje_otra_tabla = [
-                                    "titulo" => "Error",
-                                    "mensaje" => "Este usuario ya se encuentra en el grupo de " . $dato['tabla'] . " con un estado activo",
-                                    "icono" => "error",
-                                    "tipoMensaje" => "normal"
+                                    "titulo" => "Este usuario ya se encuentra en la base de datos con un estado activo"
+                                   
                                 ];
                                 return json_encode($mensaje_otra_tabla);
                             } else {
@@ -565,7 +555,7 @@ class funcionarioController extends mainModel {
         if ($data['REQUEST_METHOD'] != 'POST') {
             return json_encode([
                 "titulo" => "Error",
-                "mensaje" => "Solicitud denegada. Intente de nuevo más tarde.",
+                "mensaje" => "Solicitud denegada. Intente de nuevo mas tarde.",
                 "icono" => "error",
                 "tipoMensaje" => "normal"
             ]);
@@ -602,10 +592,8 @@ class funcionarioController extends mainModel {
             $credencial = $this->limpiarDatos($data['credenciales_funcionario']);
             if ($this->verificarDatos('[0-9a-zA-Z]{6,16}', $credencial)) {
                 return json_encode([
-                    "titulo" => "Error",
-                    "mensaje" => "Credenciales ingresadas no válidas.",
-                    "icono" => "error",
-                    "tipoMensaje" => "normal"
+                    "titulo" => "Credenciales ingresadas no validas."
+                  
                 ]);
             }
         }
